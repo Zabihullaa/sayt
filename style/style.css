@@ -1,0 +1,237 @@
+@import url(../style/fonts.css);
+::-webkit-scrollbar{
+    width: 8px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb{
+        display: flex;
+    background: #B12B06;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #000000;
+    --second-color: #FFFFFF;
+    --II: 'Inter';
+    --MM: 'Montserrat'
+}
+
+body {
+    font-family: var(--II)
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.nav {
+    background: #000000;
+
+}
+
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 75px;
+}
+
+.nav__list :nth-child(3) {
+    margin-right: 0;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--second-color);
+    text-transform: uppercase;
+}
+
+.nav__link {
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--second-color);
+
+}
+
+.nav-btn {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--second-color);
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    display: none;
+}
+
+.header__bottom {
+    background: url(../image/img\ bbg.png );
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.header-title {
+    margin-bottom: 151px;
+}
+
+.btn {
+    padding: 10px 0;
+    max-width: 237px;
+    width: 100%;
+    background: var(--second-color);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: var(--main-color);
+    border-radius: 10px;
+}
+
+.about {
+    background: #0E1C25;
+    padding-top: 30px;
+    padding-bottom: 112px;
+}
+
+.about-title {
+    margin-bottom: 47px;
+    color: var(--second-color);
+}
+
+.about__content {
+    display: flex;
+    align-items: center;
+    column-gap: 106px;
+}
+
+.about__name {
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 62px;
+}
+
+.about__name,
+.about__text {
+    font-weight: 500;
+    color: var(--second-color);
+    max-width: 466px;
+    width: 100%;
+}
+
+.about__text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.projects__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.projects__content-div{
+    display: flex;
+    justify-content: center;
+    column-gap: 126px;
+
+}
+
+.projects {
+    background: #5C6B81;
+    padding-top: 43px;
+    padding-bottom: 70px;
+}
+
+.projects__card {
+    background: #B12B06;
+    border-radius: 10px;
+    max-width: 312px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 15px 27px;
+}
+
+.projects__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--second-color);
+    margin: 20px 0;
+}
+
+.projects__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: var(--second-color);
+    margin-bottom: 20px;
+}
+
+.projects__btn {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--main-color);
+    padding: 8px 22px;
+    border-radius: 10px;
+    background: var(--second-color);
+}
+.project-title{
+    color: var(--second-color);
+    margin-bottom: 60px; 
+}
+.footer{
+    background: var(--main-color);
+}
+.footer__content{
+    padding-top: 46px;
+    padding-bottom: 62px;
+}
+.foter-title{
+    font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+color: var(--second-color);
+font-family: var(--MM);
+text-align: center;
+margin-bottom: 34px;
+}
+.footer__link{
+    display: flex;
+    justify-content: space-between;
+}

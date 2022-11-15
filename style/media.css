@@ -1,0 +1,360 @@
+@media(max-width:1230px){
+    .projects__content-div {
+        column-gap: 100px;
+    }
+}
+@media(max-width:1160px){
+    .projects__content-div {
+        column-gap: 70px;
+    }
+}
+@media(max-width:1100px){
+    .projects__content-div {
+        column-gap: 50px;
+    }
+    .about__content {
+        column-gap: 70px;
+    }
+}
+@media(max-width:1060px){
+    .projects__card {
+        width: 290px;
+    }
+    .projects__img{
+        width: 260px;
+    }
+    .about__content {
+        column-gap:35px;
+    }
+}
+@media(max-width:1015px){
+    .about__content {
+        column-gap: 30px;
+    }
+
+    .about__img {
+        width: 420px;
+    }
+    .projects__card {
+        width: 280px;
+    }
+    .projects__img{
+        width: 250px;
+    }
+}
+@media(max-width:970px){
+    .about__img {
+        width: 390px;
+    }
+    .projects__content-div {
+        column-gap: 40px;
+    }.projects__name {
+        margin: 15px 0;
+    }
+    .projects__card {
+        width: 270px;
+    }
+    .projects__img{
+        width: 240px;
+    }
+    .project-title {
+    margin-bottom: 45px;
+}
+.projects {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+}
+@media(max-width:900px){
+    .about__name {
+        font-size: 33px;
+        line-height: 35px;
+        margin-bottom: 50px;
+    }
+
+    .about__text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .about {
+        padding-bottom: 85px;
+    }
+
+    .about-title {
+        margin-bottom: 40px;
+    }
+
+    .about-title {
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .projects__card{
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+    .projects__content-div{
+        overflow-x: scroll ;
+        padding-bottom: 10px;
+        scroll-snap-type: x mandatory;
+    }
+    .projects__content-div {
+        justify-content: initial;
+    }
+    .footer__link-img {
+        width: 45px;
+    }
+}
+@media(max-width:875px){
+    .about__content {
+        flex-direction: column;
+    }
+
+    .about__text {
+        max-width: 100%;
+    }
+
+    .about__name {
+        margin: 19px auto;
+        text-align: center;
+    }
+
+}
+@media(max-width:770px){
+    .nav__item {
+        margin-right: 50px;
+    }
+
+    .nav__link {
+        font-size: 22px;
+    }
+    .projects__card {
+        width: 260px;
+    }
+    .projects__img {
+        width: 220px;
+    }
+    .footer__content {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .projects__text {
+        font-size: 13px;
+    }
+
+}
+@media(max-width:650px){
+    .nav__item {
+        margin-right: 29px;
+    }
+
+    .nav__link {
+        font-size: 19px;
+    }
+
+    .header-title {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .about__img {
+        width: 330px;
+    }
+    .projects__content-div {
+        column-gap: 30px;
+    }
+    .projects__card {
+        width: 250px;
+    }
+    .projects__img {
+        width: 220px;
+    }.projects__text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .projects__name {
+        margin: 10px 0;
+    }
+    .footer__link-img {
+        width: 40px;
+    }
+}
+@media(max-width:600px){
+    .projects__card {
+        width: 230px;
+    }
+    .projects__img {
+        width: 200px;
+    }
+    .projects__btn {
+        font-size: 18px;}
+
+}
+@media(max-width:550px){
+    .nav-btn {
+        display: block;
+    }
+
+    .nav__list {
+        position: fixed;
+        flex-direction: column;
+        left: 0;
+        top: 0;
+        padding: 20px;
+        bottom: 0;
+        backdrop-filter: blur(15px);
+        transform: translateX(-110%);
+        width: 220px;
+        box-shadow: 7px 0px 14px 0px red;
+        transition: 0.4s;
+    }
+
+    .nav__item {
+        padding: 20px 0;
+    }
+
+    .nav__link {
+        font-size: 25px;
+        line-height: 30px;
+        color: brown;
+    }
+
+    .nav-btn:focus+.nav__list {
+        transform: translateX(0);
+    }
+
+    .header-title {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .btn {
+        padding: 5px 0;
+        max-width: 210px;
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    .header__bottom {
+        height: 670px;
+    }
+
+    .header-title {
+        margin-bottom: 119px;
+    }
+
+    .about {
+        padding-bottom: 50px;
+    }
+
+    .about__name {
+        font-size: 28px
+    }
+
+    .about__text {
+        font-size: 14px;
+    }
+    .project-title {
+        margin-bottom: 33px;
+    }
+    .projects__card {
+        width: 200px;
+    }
+    .projects__img {
+        width: 170px;
+    }
+    .projects__content {
+        row-gap: 20px;
+    }
+    .projects__text {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .projects__btn {
+        font-size: 16px;
+    }
+
+    .footer__content {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .foter-title {
+        margin-bottom: 24px;
+    }
+    .projects__name {
+        margin: 7px 0;
+    }
+    .projects__content-div {
+        column-gap: 25px;
+    }
+    .projects__content {
+        row-gap: 15px;
+    }
+    .projects {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+
+    .footer__link-img {
+        width: 35px;
+    }
+
+}
+@media(max-width:425px){
+    .btn {
+        max-width: 180px;
+    }
+
+    .about-title {
+        margin-bottom: 25px;
+    }
+
+    .header__bottom {
+        height: 530px;
+    }
+
+    .about {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .about__img {
+        width: 340px;
+    }
+
+    .foter-title {
+        font-size: 34px;
+    }
+}
+@media(max-width:390px){
+    .about__img {
+        width: 315px;
+    }
+
+    .about__name {
+        font-size: 22.8px;
+    }
+
+    .about__text {
+        font-size: 12px;
+    }
+
+    .about-title {
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .about {
+        padding-top: 10px;
+    }
+
+    .footer__content {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .foter-title {
+        font-size: 30px;
+    }
+}
